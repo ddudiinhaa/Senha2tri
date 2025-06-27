@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wghtdisplay=swap');
+
+:root {
+    --branco: rgb(224, 219, 219);
+    --cor-de-fundo: #000000;
+    --fundo-da-senha: rgb(5, 76, 85);
+    --fundo-do-texto: #145531;
+    --borda: #181675;
+    --Edu: 'Edu NSW ACT Hand Precursive' monospace;
+
+}
+
+body {
+
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--Edu);
+
+}
+
+.titulo-principal {
+
+    font-family: var(--Edu);
+    font-size: 35px;
+}
+
+.titulo-secundario {
+    font-size: 24px;
+}
+
+.conteudo-titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha {
+    margin-top: 80px;
+    background: var(--fundo-da-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
+
+#campo-senha {
+    background-color: var(--fundo-da-senha);
+    border: none;
+    color: var(--branco);
+    font-family: var(--Edu);
+    font-size: 40px;
+    width: 70%;
+}
